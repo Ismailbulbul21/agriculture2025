@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #fff;
+    
+   
+    
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+
+}
+
+.btnlogin{
+    background-color: #204e51;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;  
+
+}
+
+.btnsign{
+
+    background-color: white;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.hero{
+
+ text-align: center;
+ background-color: #051314;
+ height: 100vh;
+ color: white;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.3)  ) ,url("https://images.pexels.com/photos/221016/pexels-photo-221016.jpeg?auto=compress&cs=tinysrgb&w=600");
+background-size:cover;
+ background-repeat: no-repeat;
+
+
+}
+.hero h1{
+    
+    padding-top: 150px;
+
+ font-size: 40px;
+
+
+}
+
+.hero p{
+    
+
+    font-size: 18px;
+    margin-top: 34px;
+    margin-bottom: 20px;
+   
+   }
+
+   .btnst{
+
+
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    border-radius: 12px;
+   }
+
+.btnlearn{
+
+    background-color: #204e51;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;  
+
+
+
+   }
+
+.main{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 1px;
+
+}
+
+.leftmain h1{
+ font-size: 40px;;
+ margin-bottom: 20px;
+
+   
+}
+
+.leftmain{
+
+
+    width: 400px;
+}
+.main p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.leftmain button{
+    background-color: rgb(214, 186, 186);
+    color: #080202;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+  
+    font-size: 20px;
+}
+
+.rightmain{
+
+ width: 400px;
+    position: relative;
+
+}
+.rightmain img {
+   height: 500px;
+   width: 500px;
+     border-radius: 10px;
+
+}
+
+.rightmain button{
+ 
+    position: absolute;
+  
+     bottom: -25px;
+     right: 70px;
+
+     background-color: rgb(214, 119, 119);
+     color: #080202;
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: none;
+   
+     font-size: 20px;
+
+
+}
+
+.sectiontitle{
+ text-align: center;
+ margin-top: 100px ;
+
+
+ color: #080202;
+
+
+}
+
+.sectiontitle p{
+   margin-top: 7px;
+
+   }
+.sectiontitle h1{
+    
+    margin-bottom: 10px 400px ;
+ 
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 1200px;
+
+    
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 250px;
+    width: 250px;
+ 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 20px 10px grey;
+   
+}
+
+
+
+.boxs i {
+    font-size: 40px;
+    color: #204e51;
+}
+
+.boxs h1 {
+    font-size: 20px;
+    text-shadow: 30px 0px 30px red;
+    
+}
+
+
+.section{
+
+    text-align: center;
+    margin-top: 100px ;
+   
+   
+    color: #080202;
+
+}
+
+.bok{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+   padding: 50px;
+ 
+  
+     
+
+}
+
+.boks {
+    background-color: aqua;
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+}
+.boks h1 {
+    font-size: 20px;
+    text-shadow: 30px 0px 30px red;
+    margin-top: 20px;
+}
+ 
+.boks p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.boks img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+.sustain{
+
+    height:430px ;
+    
+    background-color:#5a3333 ;
+  padding-top: 100px;
+  padding-left: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.3)  ) ,url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=600");
+  
+
+
+  background-size:100%  430px;
+  background-repeat: no-repeat;
+}
+
+.sustain h1{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.learnmoree{
+  margin-right: 70px;
+  background-color: #204e51;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+margin-top: 90px;
+  border:none;
+}
+
+.contacct{
+    margin-right: 70px;
+    background-color: #101213;
+    color: #f0e5e5;
+    padding: 10px 20px;
+    border-radius: 5px;
+  
+    border:none;
+
+}
+
+.benefits{
+  display: flex;
+ justify-content: space-around;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ align-items: center;
+  
+
+}
+
+.benefitsleft{
+ width: 500px;
+  font-size: 20px;
+
+}
+.benefitsleft h1{
+    font-size: 50px;
+   
+    color: #051314;
+   
+
+
+
+
+
+}
+
+.benefitsright{
+
+    background-color:black;
+    color:#f0e5e5;
+     width: 500px;
+    height: 560px;
+    border-radius: 13px;
+
+    
+}
+
+ .benefitsleft p {
+
+
+
+font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+.learnmoreee{
+    margin-right: 70px;
+    background-color: #204e51;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+ margin-top: 17px;
+    border:none;
+}
+
+.icon-parents{
+ 
+    margin-left: 60px;
+   display: flex;
+     gap: 120px;
+     justify-content: center;
+     align-items: center;
+
+
+ margin-top: 60px;
+
+}
+.icon-parents i{
+    font-size: 60px;
+    color: #fcfcfc;
+    margin-top: 10px;
+    display: flex;
+   
+
+
+}
+
+
+.section-title{
+
+    text-align: center;
+    margin-top: 100px ;
+
+
+    color: #080202;
+}
+
+
+
+
+
+
+
+.testimonal{
+
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+
+
+
+.testiparent{
+
+
+    display: grid;
+    grid-template-columns: 80px 900px 80px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+
+
+}
+
+.testimonal i {
+
+    font-size: 40px;
+margin-top: 255px;
+padding: 10px;
+border-radius: 50%;
+box-shadow: 2px 12px 6px gainsboro;
+
+
+
+}
+
+
+#testmainchild{
+
+    background-color: #051314;
+    border-radius: 10px;
+ 
+   
+   
+}
+
+
+.waalidkaa{
+
+     display: flex;
+     justify-content: space-between;
+
+   
+
+margin-top: 100PX;
+margin-left: 100PX;
+gap: 10PX;
+
+ 
+
+}
+.waalidkaa img {
+    width: 200px;
+    height: 200px;
+ 
+   
+}
+.cunugaa{
+ width: 500px;
+color: #fff;
+
+
+
+
+}
+
+.cunugaa h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.cunugaa p {
+    font-size: 15px;
+    margin-bottom: 20px;
+
+    
+}
+.cunugaa i {
+    color: rgb(236, 236, 46); 
+    margin-bottom: 40px;
+    margin: 10px;
+    
+    
+    
+   
+}
+
+.beeraha{
+  
+   margin-top: 100px;
+   margin-bottom: 200px;
+
+}
+.h11{
+    font-size: 20px;
+        margin-left: 40%;
+}
+
+.pp {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30%;
+ 
+}
+.beeraha-child{
+   display: grid;
+grid-template-columns: 400px 400px 400px;
+gap: 20px;
+justify-content: center;
+margin-top: 30px;
+
+
+    
+}
+
+.childchild{
+    height: 400px;
+   
+    width: 100%;
+}
+
+.childchild img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.childchild h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.childchild p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.childchild button{
+
+    background-color: #204e51;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.footer{
+
+     background-color: #204e51;
+     height: 300px;
+     width: 100%;
+     margin-top: 200px;
+
+}
+
+.bars{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+.btnlogin{
+    display: none;
+}
+.btnsign{
+    display: none;
+}
+.header{
+   
+    padding: 20px;
+}
+.header h1{
+
+    font-size: 28px;
+
+}
+
+.header ul {
+    display: none;
+}
+.bars{
+    display: block;
+    font-size: 30px;
+    object-fit: cover;
+
+}
+
+.hero{
+ 
+    height: 110vh;
+  
+
+
+}
+.hero h1{
+    font-size: 25px;
+}
+
+.btnst{
+  margin-bottom: 10px;
+   
+
+}
+.main{
+    flex-direction: column;
+    
+    gap: 20px;
+    text-align: center;
+}
+
+.leftmain h1{
+    font-size: 15px;
+}
+
+.rightmain img {
+
+    height: 400px;
+    width: 360px;
+
+
+}
+.sectiontitle{
+     
+}
+.box{
+   
+    flex-direction: column;
+}
+
+.section{
+
+}
+
+.bok{
+
+    flex-direction: column;
+}
+
+.sustain{   
+
+    height: 70vh;
+    width: 387px;
+    flex-direction: column;
+ 
+
+
+}
+.sustain h1{
+    font-size: 20px;
+    color: #f0e5e5;
+    margin-right: 40px;
+}
+
+.learnmoree{
+
+    margin-bottom: 10px;
+}
+
+.benefits{
+
+     flex-direction: column;
+     gap: 10px;
+
+}
+
+
+.benefitsleft h1 {
+
+     font-size: 20px;
+  
+}
+.benefitsleft p {
+
+    font-size: 15px;
+  
+
+}
+
+.benefitsleft{
+
+  width: 300px;
+
+   align-items: center;
+
+}
+
+
+.benefitsright{
+ width: 340px;
+    height: 700px;
+
+}
+
+
+
+
+.testiparent{
+    grid-template-columns: 100px 200px 100px;
+}
+.testimonal I{
+     margin-top: 100px;
+     margin-left: 10px;
+    
+}
+
+#testmainchild{
+  
+   height: 55vh; 
+   width: 100%; 
+  
+ 
+
+}
+
+#testmainchild img {
+
+    margin-left: 40px;
+}
+.waalidkaa{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+    
+   
+  
+    
+
+}
+.waalidkaa  img {
+    width: 100px;
+    height: 100px;
+
+
+}
+.cunugaa{
+ 
+   
+}
+
+ .cunugaa h1  {
+    font-size: 10px;
+    margin-bottom: 20px;
+ }
+ .cunugaa p {
+
+    font-size: 10px;
+    margin-bottom: 20px;
+
+    
+ }
+
+ .cunugaa i {
+ font-size: 20px;
+
+ }
+
+
+ .beeraha{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ 
+ 
+
+
+
+
+ }
+.h11{
+    margin-left: 10%;
+
+}
+.pp{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+   
+   
+ }
+ .beeraha-child{
+    grid-template-columns: 400px;
+    align-items: center;
+    margin-left: 100px;
+    gap: 20px;
+  
+
+ }
+ 
+ .beeraha-child img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+ }
+
+}
